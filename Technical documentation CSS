@@ -1,0 +1,8 @@
+@media{
+  #navbar{
+  float:left;
+  display:inline;
+  margin-right:10px;
+  height:100%;
+  }
+}
