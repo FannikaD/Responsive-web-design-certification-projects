@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="styles.css">
+  <body>
+    <h1 id="title">Dream form</h1>
+    <p id="description">describe your dream</p>
+    <form id="survey-form">
+      <label id="name-label"> Enter your name: <input placeholder="Enter your name"id="name" type="text" required></label>
+      <label id="email-label"> Enter your email: <input placeholder="Enter your email" id="email" type="email" required></label>
+      <label id="number-label"> Enter your age:<input placeholder="Enter an age" id="number" type="number" min="13" max="120"></label>
+      <select id="dropdown">
+        <option>restfull</option>
+        <option>disturbed</option>
+      </select>
+      <p>Was there something upsetting in the dream?</p>
+      <label><input checked type="radio" name="upsetting" value="yes">yes</label>
+      <label><input type="radio" name="upsetting" value="no">no</label>
+      <p>Was the dream scary? (required)</p>
+      <label><input type="checkbox" value="scary">yes</label>
+      <label><input type="checkbox" value="scaryn't">no</label>
+      <label>Additional dream info:<textarea> any additional dream facts </textarea> </label>
+      <button id="submit" type="submit">submit</button>
+    </form>
+  </body>
+</html>
