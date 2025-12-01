@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<main id="main-doc">
+  <nav id="navbar"><header>A quick summary of some coding terms</header>
+  <ul>
+    <li><a class="nav-link" href="#1st_section">1st section</a></li>
+    <li><a class="nav-link" href="#2nd_section">2nd section</a></li>
+    <li><a class="nav-link" href="#3rd_section">3rd section</a></li>
+    <li><a class="nav-link" href="#4th_section">4th section</a></li>
+    <li><a class="nav-link" href="#5th_section">5th section</a></li>
+    </ul>
+    </nav>
+  <section id="1st_section" class="main-section">
+    <header id="1st-section">1st section</header>
+    <code>console.log()</code>
+    <p>This prints the code to the console in java script.</p>
+  </section>
+  <section id="2nd_section" class="main-section">
+    <header id="2nd-section">2nd section</header>
+    <code>Mathsqrt()<code>
+    <p>This is the first paragraph introducing ideas of second section topics.</p>
+    <p>This is the second part of the first paragraph going into more depth regarding the second section topics.</p>
+  </section>
+  <section id="3rd_section" class="main-section">
+    <header id="3rd-section">3rd section</header>
+    <code>console.read=?</code>
+    <p>This is the third section describing the second paragraph with a brief summary.</p>
+    <p>Here we go into detailed references with cited sources.</p>
+    <p>here we write a brief summary of what was discussed in this paragraph.</p>
+  </section>
+  <section id="4th_section" class="main-section">
+    <header id="4th-section">4th section</header>
+    <code> if (__){} (boolean true or false conditional statement)</code>
+    <p>This is the fourth section describing the third paragraph with a brief summary.</p>
+    <p>Here we go into detailed references with cited sources.</p>
+    <p>here we write a brief summary of what was discussed in this paragraph.</p>
+  </section>
+  <section id="5th_section" class="main-section">
+    <header id="5th-section">5th section</header>
+    <code>bool __ = __</code>
+    <p>This is a boolean assignment meaning that the value can only store true or false other common types are:</p>
+    <ul>
+      <li>char</li>
+      <li>string</li>
+      <li>int</li>
+      <li>byte</li>
+      <li>short</li>
+    </ul>
+  </section>
+</main>
