@@ -1,0 +1,30 @@
+#welcome-section{
+  height:100vh;
+  text-align:center;
+}
+h1{
+  position:absolute;
+  top:45%;
+  left:15%;
+}
+#navbar{
+  position:fixed;
+  padding:0;
+  margin:0;
+  z-index:1;
+  top:0px;
+  width:100%;
+  background-color:beige;
+  overflow:hidden;
+}
+.option{
+  display:block;
+  float:left;
+  padding-left:20px;
+  font-family: sans-serif;
+}
+@media(max:200){
+  .option{
+    background-color:red;
+  }
+}
