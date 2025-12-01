@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device width, initial-scale=1.0">
+    <title>Energy Boof</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar" class="top-bar fixed">
+      <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#ingredients">Ingredients</a>
+        <a class="nav-link" href="#trailer">Launch trailer</a>
+    </nav>
+      <img id="header-img" src="https://shorturl.at/rF1zs">
+    </header>
+    <section id="home">
+      <h1>Welcome to Energy Boof</h1>
+      <p>An energy drink is a type of non-alcoholic psychoactive functional beverage containing stimulant compounds, usually caffeine (at a higher concentration than ordinary soda pop) and taurine, which is marketed as reducing tiredness and improving performance and concentration (marketed as "energy", but distinct from food energy). They may or may not be carbonated and may also contain sugar, other sweeteners, or herbal extracts, among numerous other possible ingredients. Energy drinks are different from sugar-sweetened beverages. While both energy drinks and sugar-sweetened beverages typically contain high levels of sugar, energy drinks include stimulants like caffeine and taurine and are marketed for energy, and sugar-sweetened beverages like sodas and fruit juices usually do not.</p>
+    </section>
+    <section id="ingredients">
+      <h1>Locally sourced ingredients</h1>
+    </section>
+    <section id="trailer">
+      <h1>Trailer</h1>
+      <iframe id="video" src="https://www.youtube.com/watch?v=JGPB_IvmAJI&list=RDGMEM5r_-Twxt33WMERowgp5Y7AVM-XCVK1uYQ8k&index=11&ab_channel=UnlikelyCandidatesVEVO" target="_blank"></iframe>
+    </section>
+    <footer>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <p>Enter email for notifications: <input id="email" name="email" type="email" placeholder="e.g. chris@gmail.com"></p>
+        <input type="submit" id="submit" class="submit" action="https://www.freecodecamp.com/email-submit">
+      </form>
+    </footer>
+  </body>
+</html>
