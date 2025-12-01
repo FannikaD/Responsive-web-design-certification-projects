@@ -1,0 +1,29 @@
+#name-label, #number-label, #email-label{
+  display:block;
+}
+#survey-form{
+  font-size:17px;
+  font-family: Sans serif;
+  text-align:left;
+  width:100%;
+  margin:auto;
+  height:20px;
+}
+#name, #email, #number{
+  width:100px;
+  margin: 0.3em;
+}
+#dropdown{
+  margin-top:12px;
+}
+label{
+  display:block;
+}
+#submit{
+  margin:1em;
+  width: 100px;
+  height: 25px;
+}
+body{
+  text-align:center;
+}
